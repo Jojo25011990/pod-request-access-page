@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/Jojo25011990/pod-request-access-page)
-- Live Site URL: [Github Pages](https://your-live-site-url.com)
+- Live Site URL: [Github Pages](https://jojo25011990.github.io/pod-request-access-page/)
 
 ## My process
 
