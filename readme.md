@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./Screenshot%20Frontend%20Mentor%20Pod%20request%20access%20landing%20page.png)
+![](./Screenshot%20%20Frontend%20Mentor%20Pod%20request%20access%20landing%20page.png)
 
 ### Links
 
