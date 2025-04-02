@@ -53,6 +53,7 @@ body {
 }
 
 .main {
+  position: relative;
   width: 100%;
   max-width: 144rem;
   height: 100vh;
@@ -165,7 +166,14 @@ body {
     }
 
     &-label {
-      display: none;
+      position: absolute;
+      width: 0.1rem;
+      height: 0.1rem;
+      margin: -0.1rem;
+      padding: 0;
+      border: 0;
+      clip: rect(0, 0, 0, 0);
+      overflow: hidden;
     }
 
     &-email {
@@ -211,6 +219,7 @@ body {
       @media (max-width: 586px) {
         position: relative;
         width: 100%;
+        height: 5rem;
         margin-top: 1rem;
       }
     }
@@ -228,8 +237,9 @@ body {
 
       @media (max-width: 586px) {
         left: 50%;
-        top: 12rem;
+        top: 12.2rem;
         transform: translateX(-50%);
+        @include font-settings(1.4rem, 700);
       }
     }
 
@@ -289,6 +299,21 @@ body {
 
     &-bg {
       height: 65.4rem;
+    }
+  }
+
+  &__imgBox-dots {
+    position: absolute;
+    bottom: -5.1rem;
+    right: -16.39rem;
+    z-index: 15;
+
+    @media (max-width: 1120px) {
+      bottom: -5.6rem;
+    }
+
+    @media (max-width: 700px) {
+      display: none;
     }
   }
 }
